@@ -21,6 +21,7 @@ public class TestBase {
 		FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\Resources\\Global.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
+		
 		String url = prop.getProperty("QAUrl");
 		String browser_properties = prop.getProperty("browser");
 		String browser_maven = System.getProperty("browser");
