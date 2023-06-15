@@ -12,7 +12,7 @@ public class Landingpage {
 	By topdeals = By.linkText("Top Deals");
 	By increment = By.cssSelector("a.increment");
 	By addTocart = By.cssSelector(".product-action button");
-	
+	By addTocart2 = By.cssSelector(".product-action button2");//dummy
 	
 	public Landingpage(WebDriver driver) 
 	{
