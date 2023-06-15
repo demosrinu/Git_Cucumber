@@ -13,7 +13,7 @@ public class Landingpage {
 	By increment = By.cssSelector("a.increment");
 	By addTocart = By.cssSelector(".product-action button");
 	By addTocart2 = By.cssSelector(".product-action button2");//dummy
-	
+	//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 - token
 	public Landingpage(WebDriver driver) 
 	{
 		this.driver=driver;
